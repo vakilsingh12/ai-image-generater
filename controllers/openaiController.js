@@ -5,7 +5,7 @@ const openai = new OpenAI({
 const generateImage = async (req, res) => {
     try {
         const response = await openai.images.generate({
-            prompt: 'cute girl indian',
+            prompt: 'horse',
             n: 1,
             size: '512x512'
         })
